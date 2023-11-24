@@ -1,5 +1,15 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <chien />
 </template>
+
+<script>
+import Chien from '../components/HeaderImage.vue'
+export default {
+  components: {
+    name: 'chien',
+    Chien,
+  },
+}
+</script>
+
+<style></style>
